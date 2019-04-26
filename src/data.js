@@ -16,11 +16,11 @@ export const paragraphs = [
             en: `3 things to avoid when raising a son.`
         },
         {
-            vi: `Đừng guôi con trai trong sự sung túc`,
+            vi: `Đừng nuôi con trai trong sự sung túc`,
             en: `Don't raise a son in wealth`
         },
         {
-            vi: `Ý nghĩa quan trọng của “nghèo” nuôi con trai là thông qua cảm biến sự nghèo khó và gian khổ của bản thân mà từ đó rèn luyện và tu dưỡng phẩm chất, ý chí cho con`,
+            vi: `Ý nghĩa quan trọng của việc nuôi con trai trong sự thiếu thốn là thông qua cảm biến sự nghèo khó và gian khổ của bản thân mà từ đó rèn luyện và tu dưỡng phẩm chất, ý chí cho con`,
             en: `The importance of raising a son in destituteness is training and enriching your son’s will and qualities by letting him experience hardships and neediness.`
         },
         {
@@ -46,3 +46,24 @@ export const paragraphs = [
     ]
 ]
 
+// `THÁNG GIÊNG DIỆU KÌ
+// Marverlous January
+
+
+// - Chỉ có thằng hâm mới bỏ em.  
+// - Only a fool would leave you.
+
+// - Vì sao, em có điểm gì tốt chứ?
+// - Why? What’s good about you?
+
+// - Em rất chân thành.
+// - You’re very sincere.
+// ***
+
+// Đôi khi cầm trên tay mấy bản CV, tôi chẳng biết viết cái gì vào đó. 
+// There were times holding a few copies of CV in my hand, I had no idea what to write on them. 
+
+
+
+// Không phải vì tôi đã sống những năm nhợt nhạt trước đó, mà đôi khi tôi chẳng bao giờ hiểu hết mình, hoặc quá phức tạp, hoặc đơn giản đến diệu kỳ. 
+// It was not because I had lived a dull life in the previous years, but at times I could not comprehend myself – it was either terribly complicated or amazingly simple.`
