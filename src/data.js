@@ -5,7 +5,7 @@ const sentences = [
     },
 ]
 
-const paragraphs = [
+export const paragraphs = [
     [
         {
             vi: 'Nuôi con trai trong sự thiếu thốn, nuôi con gái trong sự sung túc.',
