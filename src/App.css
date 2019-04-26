@@ -1,18 +1,18 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  
+  color: #ffe2ba;
+  background: #1e3262;
 }
 .App header {
   padding: 25px;
   font-size: 50px;
-  background-color: #1e3262;
   color: #ffe2ba;
+  background: #1e3262;
   font-family: Lobster;
+  border-bottom: 5px dashed #ffe2ba;
 }
-:root {
-  font-family: 'Cuprum', sans-serif;
-  color: #1e3262;
-  background: #ffe2ba;
-}
+
 
 * {
   font-family: 'Cuprum', sans-serif;
@@ -21,14 +21,23 @@
 }
 
 article {
-  background: #1e3262;
-  padding: 25px;
-  margin: 25px;
+  background: #ffe2ba;
+  width: 80%;
+  max-width: 700px;
+  /* margin: auto; */
+  margin: 25px auto;
+  padding: 10px;
 }
-.en {
 
+article div {
+  margin: 25px;
+  border-bottom: 2px solid #1e3262;
+}
+p {
+  font-family: 'Cuprum', sans-serif;
+  font-size: 2em;
 }
 
 .vi {
-
+  font-family: 'Dancing Script', cursive;
 }
