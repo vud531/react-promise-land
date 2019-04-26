@@ -14,6 +14,7 @@ class App extends React.Component {
       <header className="App-header">
         Promised Land
       </header>
+      <section>
       {
         this.state.passages.map(passage => (
           <article>
@@ -28,6 +29,8 @@ class App extends React.Component {
           </article>
         ))
       }
+      </section>
+
       <article>
         <p></p>
       </article>

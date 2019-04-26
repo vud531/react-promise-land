@@ -8,15 +8,22 @@ html, body, #root, .App {
 }
 .App {
   /* text-align: center; */
-
+  position: relative;
   color: #ffe2ba;
   background: #ffe2ba;
 }
+
+.App section {
+  position: absolute;
+  top: 118px;
+}
+
 .App-header {
-  position: relative;
+  position: fixed;
+  z-index: 99;
+  top: 0%;
   left: 0%;
   right: 0%;
-  top: 0%;
   width: 100%;
   padding: 25px;
   font-size: 50px;
@@ -24,6 +31,7 @@ html, body, #root, .App {
   background: #1e3262;
   font-family: Lobster;
   border-bottom: 5px dashed #ffe2ba;
+  
 }
 
 
@@ -43,7 +51,7 @@ article {
 article div {
   min-width: 300px;
   width: 40%;
-  margin: 5%;
+  margin: 0% 5% 3%;
   display: inline-block;
   vertical-align: top;
   /* display: inline;
@@ -62,3 +70,4 @@ p {
 .vi {
   font-family: 'Dancing Script', cursive;
 }
+
