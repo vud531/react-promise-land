@@ -1,10 +1,23 @@
+html, body, #root, .App {
+  position: relative;
+  right: 0%;
+  left: 0%;
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+}
 .App {
   /* text-align: center; */
-  
+
   color: #ffe2ba;
-  background: #1e3262;
+  background: #ffe2ba;
 }
-.App header {
+.App-header {
+  position: relative;
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  width: 100%;
   padding: 25px;
   font-size: 50px;
   color: #ffe2ba;
@@ -21,17 +34,25 @@
 }
 
 article {
-  background: #ffe2ba;
-  width: 80%;
-  max-width: 700px;
-  /* margin: auto; */
-  margin: 25px auto;
-  padding: 10px;
+  /* background: #ffe2ba; */
+  /* background: #1e3262; */
+  width: 100%;
+  margin: auto;
 }
 
 article div {
-  margin: 25px;
-  border-bottom: 2px solid #1e3262;
+  min-width: 300px;
+  width: 40%;
+  margin: 5%;
+  display: inline-block;
+  vertical-align: top;
+  /* display: inline;
+  background: #ffe2ba;
+  width: 25%;
+  min-width: 600px;
+  margin: auto; */
+  /* margin: auto; */
+  /* border-bottom: 2px solid #1e3262; */
 }
 p {
   font-family: 'Cuprum', sans-serif;
