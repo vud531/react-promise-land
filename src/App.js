@@ -49,7 +49,9 @@ class App extends React.Component {
                         key={article.id}
                         onClick={() => this.togglePassage(index)}
                       >
-                        {article.title.en}
+                        {`${index === currentArticle ? "👀" : ""} ${
+                          article.title.en
+                        } `}
                       </Menu.List.Item>
                     ))}
                   </Menu.List>

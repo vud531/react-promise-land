@@ -14,8 +14,9 @@ const Article = props => {
         <Content>
           {sentences.map((sentence, index) => (
             <div key={index}>
-              <p className="vi">{sentence.vi}</p>
-              <p className="en">{sentence.en}</p>
+              <p className="vi">✍️ {sentence.vi}</p>
+              <p className="en">✍️ {sentence.en}</p>
+              <p style={{ textAlign: "center" }}>{"✔️"}</p>
               <p />
             </div>
           ))}
