@@ -30,7 +30,7 @@ class App extends React.Component {
             <Container>
               <Navbar.Brand>
                 <Navbar.Item>
-                  <Heading>Promised Land</Heading>
+                  <Heading>English Klub</Heading>
                 </Navbar.Item>
               </Navbar.Brand>
             </Container>
