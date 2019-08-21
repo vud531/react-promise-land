@@ -34,7 +34,7 @@ class App extends React.Component {
             <Container>
               <Navbar.Brand>
                 <Navbar.Item>
-                  <Heading className="is-success">Promised Land</Heading>
+                  <Heading>Promised Land</Heading>
                 </Navbar.Item>
               </Navbar.Brand>
             </Container>
