@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.css";
 import { articles } from "./data.js";
 import Article from "./components/Article";
 import "react-bulma-components/dist/react-bulma-components.min.css";
@@ -7,12 +6,9 @@ import {
   Hero,
   Navbar,
   Heading,
-  Section,
   Container,
   Columns,
-  Card,
-  Menu,
-  Icon
+  Menu
 } from "react-bulma-components";
 
 class App extends React.Component {

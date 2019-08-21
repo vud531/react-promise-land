@@ -1,16 +1,5 @@
 import React from "react";
-import {
-  Content,
-  Hero,
-  Button,
-  Navbar,
-  Heading,
-  Section,
-  Container,
-  Columns,
-  Box,
-  Card
-} from "react-bulma-components";
+import { Content, Card } from "react-bulma-components";
 const Article = props => {
   const { title, sentences } = props;
   return (
