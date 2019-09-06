@@ -6,7 +6,7 @@ const sentences = [
       "Smart people don’t debate with those who are ignorant. If someone is not worthy to be your opponent, all you need to do is smile and leave. Don’t let him attack and leave you the unnecessary wounds."
   }
 ];
-const arti1 = {
+const art1 = {
   id: 1,
   title: {
     vi: "Việc Nuôi Nấng Con Trai",
@@ -52,11 +52,11 @@ const arti1 = {
   ]
 };
 
-const art2 = {
-  id: 2,
+const pass2 = {
+  id: 3,
   title: {
-    vi: "Love Story part 1",
-    en: "Love Story part 1"
+    vi: "Love Story part 2",
+    en: "Love Story part 2"
   },
   sentences: [
     {
@@ -100,11 +100,11 @@ const art2 = {
     }
   ]
 };
-const art3 = {
-  id: 3,
+const pass3 = {
+  id: 4,
   title: {
-    vi: "Love Story part 2",
-    en: "Love Story part 2"
+    vi: "Love Story part 3",
+    en: "Love Story part 3"
   },
   sentences: [
     {
@@ -127,8 +127,48 @@ const art3 = {
     }
   ]
 };
-
-export const articles = [arti1, art2, art3];
+const pass1 = {
+  id: 2,
+  title: {
+    vi: "Love Story part 1",
+    en: "Love Story part 1"
+  },
+  sentences: [
+    {
+      vi: `Mẹ tôi thường dạy chúng tôi rằng, hãy đến với người thật lòng yêu con và con cũng yêu người đó.`,
+      en: `My mother often reminded us: seek for those who truly love you, and to whom you also truly love.`
+    },
+    {
+      vi: `Đừng quan điểm giàu nghèo, vì tiền bạc không làm nên hạnh phúc. Trèo cao con sẽ té đau.`,
+      en: `Do not judge whether it be rich or poor because money doesn’t necessarily bring happiness. The higher you go, the harder you fall.`
+    },
+    {
+      vi: `Anh là một anh chàng nhà nghèo nhưng chịu khó, có chí cầu tiến, thông minh, nhưng học không giỏi vì có tính hơi lười 1 tí.`,
+      en: `He was a poor but hard-working guy, and having the will to excel, intelligent, but not doing so well in school for being somewhat slack off.`
+    },
+    {
+      vi: `Những năm đầu quen nhau, tôi không dám cho gia đình mình biết nhà của anh, vì sợ cho mẹ thấy nhà nghèo quá sẽ không cho tôi thương anh và quen anh nữa, thế nên tôi cứ phải giấu.`,
+      en: `In the first few years of getting to know each other, I didn’t dare to let my family know where his house was, being afraid that once my mother realized how poor his family was, she would no longer allow me to keep the relationship and continue dating him, and hence I had to keep it secret.`
+    },
+    {
+      vi: `Đến sau này, gần đến ngày cưới tôi và anh mới dám dẫn cha mẹ của tôi ghé nhà anh chơi, vì sau 7 năm làm việc nghiêm túc, anh đã mua được một ngôi nha tạm ổn và tươm tất hơn nên mới ngỏ lời mời cha mẹ tôi đến cho biết nhà.`,
+      en: `Not until later had he and I the courage to take my parents to his house as our wedding day was coming near. After 7 years of seriously working, he was then able to buy a house, which could be considered acceptable and better, and encouraged to invite my parents over for a visit.`
+    },
+    {
+      vi: `Chúng tôi đã trãi qua rất nhiều những khó khăn và sóng gió.`,
+      en: `We had had our ups and downs.`
+    },
+    {
+      vi: `Nước mắt tôi vẫn cứ âm thầm rơi, phần vì nhớ anh đi làm xa, phần vì anh hơi vô tâm.`,
+      en: `Silently my tears were falling, partly due to missing him working away from home, partly due to him being somewhat inconsiderate.`
+    },
+    {
+      vi: `Những năm đầu quen, có khi 9 tháng anh mới đi làm về và chúng tôi mới gặp anh. Nhưng tôi tin rằng, tình yêu sẽ làm cho mọi khoảng cách gần nhau hơn.`,
+      en: `In the first few years of our relationship, there were times it took him 9 months of working away from home to come home and only then we could see him, but I believed that love would shorten the distance between us.`
+    }
+  ]
+};
+export const articles = [art1, pass1, pass2, pass3];
 
 // `THÁNG GIÊNG DIỆU KÌ
 // Marverlous January
